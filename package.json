@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-redirects",
-  "version": "0.0.6",
+  "version": "0.0.1",
   "description": "This plugin allows a user to manage redirects from the admin panel.",
   "strapi": {
     "name": "redirects",
@@ -9,25 +9,25 @@
     "displayName": "Redirects"
   },
   "dependencies": {
-    "@strapi/design-system": "^1.6.3",
-    "@strapi/helper-plugin": "^4.6.0",
-    "@strapi/icons": "^1.6.3",
-    "prop-types": "^15.7.2",
+    "@strapi/design-system": "^1.13.0",
+    "@strapi/helper-plugin": "^4.15.5",
+    "@strapi/icons": "^1.13.0",
+    "prop-types": "^15.8.1",
     "lodash": "4.17.21",
     "csvtojson": "2.0.10"
   },
   "devDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^5.3.4",
-    "styled-components": "5.3.3"
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
   },
   "peerDependencies": {
-    "@strapi/strapi": "^4.11.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^5.3.4",
-    "styled-components": "5.3.3"
+    "@strapi/strapi": "^4.15.5",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
   },
   "author": {
     "name": "Alex Bennett",
@@ -36,11 +36,11 @@
   },
   "maintainers": [
     {
-      "name": "Alex Bennett"
+      "name": "Dan Grebb"
     }
   ],
   "engines": {
-    "node": ">=14.19.1 <= 18.x.x",
+    "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
